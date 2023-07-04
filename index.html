@@ -5,12 +5,14 @@
 </head>
 <body>
     <div id="讨旌旗山檄文">讨旌旗山檄文...</div>
-    <div id="photoWall">photoWall</div>
+    <button onclick="photoWall()">photoWall</button>
     <script>
         function gebi(id){return document.getElementById(id);}
 
         var 讨旌旗山檄文=gebi("讨旌旗山檄文");
-        var photoWall=gebi("photoWall");
-        
+        function photoWall(){
+            window.open("./photoWall/index.html");
+        }
+
     </script>
 </body>
